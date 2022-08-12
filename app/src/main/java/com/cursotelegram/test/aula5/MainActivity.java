@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                 "Não coloque limite em seus sonhos, coloque fé.",
                 "LEMBRETE, tudo que você toca, florece."
         };
-        int numAleatorio = new Random().nextInt(6);
+        int numAleatorio = new Random().nextInt(7);
         TextView fraseText;
         fraseText = findViewById(R.id.textFrase);
         fraseText.setText(frase[numAleatorio]);
